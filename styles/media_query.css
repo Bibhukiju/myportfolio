@@ -1,0 +1,63 @@
+/* * ipad view  */
+@media only screen and (max-width: 767px) {
+
+    .alignning-padding {
+        padding: 0 1rem;
+    }
+
+    nav .nav_right,
+    nav .nav_middle {
+        display: none;
+    }
+
+    nav .nav_menu__icon {
+        display: unset;
+        color: var(--secondary-color);
+    }
+
+    .open-drawer {
+        left: 0vw;
+        transition: all 0.5s ease;
+    }
+
+    .close-drawer {
+        left: -80vw;
+        transition: all 0.5s ease-out;
+    }
+
+    .home {
+        height: unset;
+    }
+
+    .landing-right,
+    .landing-left {
+        height: 43vh;
+    }
+
+    .landing-right .hexagon {
+        height: 200px;
+        width: 200px;
+    }
+
+    .services .services-cards-holder {
+        justify-content: space-between;
+    }
+
+    .project-page .recent-project--text {
+        width: 340px;
+        margin: 1.2rem 0;
+    }
+}
+
+
+/* ? mobile view  */
+@media only screen and (max-width: 480px) {
+    nav .nav_left {
+        justify-content: center;
+    }
+
+    .home .landing-left .about-txt {
+        display: none;
+    }
+
+}
